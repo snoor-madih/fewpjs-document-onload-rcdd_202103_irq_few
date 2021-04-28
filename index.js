@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
   const txt =document.getElementById("text");
+  txt.innerHTML=""
   document.body.append(txt);
 });
 console.log(
